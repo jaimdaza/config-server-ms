@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+./gradlew build -x test
+
+java -Duser.timezone=UTC -jar build/libs/confi-server-0.0.1.jar
